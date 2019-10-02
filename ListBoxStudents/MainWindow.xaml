@@ -1,0 +1,16 @@
+﻿<Window x:Class="ListBoxStudents.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ListBoxStudents"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <ListBox x:Name="lsbList" HorizontalAlignment="Left" Height="140" Margin="60,76,0,0" VerticalAlignment="Top" Width="105">
+
+        </ListBox>
+        <TextBlock Background="Blue" HorizontalAlignment="Left" Margin="60,60,0,0" TextWrapping="Wrap" Text="STT          Tên" VerticalAlignment="Top" Width="105"/>
+
+    </Grid>
+</Window>
